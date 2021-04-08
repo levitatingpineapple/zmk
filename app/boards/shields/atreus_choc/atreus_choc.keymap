@@ -23,10 +23,10 @@
 
         red_layer {
             bindings = <
-                &kp 1     &kp 2     &kp 3     &kp 4     &kp 5     &none     &none     &kp 6     &kp 7     &kp 8     &kp 9     &kp 0   
-                &trans    &trans    &trans   &trans     &trans    &none     &none     &trans    &trans    &trans    &trans    &trans
-                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
-                &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+                &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &none     &none     &kp N6    &kp N7    &kp N8    &kp N9    &kp N0  
+                &kp PLUS  &kp STAR  &kp UP    &kp CARET &kp AMPS  &none     &none     &kp LT    &kp LPAR  &kp LBRC  &kp LBKT  &trans
+                &kp GRAVE &kp LEFT  &kp DOWN  &kp RIGHT &kp HASH  &trans    &trans    &kp EQUAL &kp UNDER &trans    &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &none     &none     &trans    &trans    &trans    &trans    &trans
             >;
         };
     };
