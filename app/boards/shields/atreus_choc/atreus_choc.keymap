@@ -34,14 +34,14 @@
             bindings = <
                 &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &none          &none      &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
                 &kp PLUS   &kp STAR   &kp UP     &kp CARET  &kp AMPS   &none          &none      &kp LT     &kp LPAR   &kp LBRC   &kp LBKT   &trans
-                &kp GRAVE  &kp LEFT   &kp DOWN   &kp RIGHT  &kp HASH   &trans         &trans     &kp EQUAL  &kp UNDER  &trans     &trans     &trans
+                &kp GRAVE  &kp LEFT   &kp DOWN   &kp RIGHT  &kp DLLR   &trans         &trans     &kp EQUAL  &kp UNDER  &trans     &trans     &trans
                 &trans     &trans     &trans     &trans     &trans     &none          &none      &trans     &mo 3      &trans     &trans     &trans
             >;
         };
 
         purple_layer {
             bindings = <
-                &trans     &trans     &trans     &trans     &trans     &none          &none      &trans     &trans     &trans     &trans     &trans
+                &kp SLCK   &kp PAUSE_BREAK &trans &trans    &trans     &none          &none      &trans     &trans     &trans     &trans     &trans
                 &kp MINUS  &kp FSLH   &trans     &kp PRCNT  &kp PIPE   &none          &none      &kp GT     &kp RPAR   &kp RBRC   &kp RBKT   &trans
                 &kp TILDE  &trans     &trans     &trans     &kp HASH   &trans         &trans     &trans     &kp AT     &trans     &trans     &trans
                 &trans     &trans     &trans     &trans     &trans     &none          &none      &trans     &trans     &trans     &trans     &trans
