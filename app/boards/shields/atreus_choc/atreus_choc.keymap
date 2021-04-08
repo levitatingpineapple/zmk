@@ -14,29 +14,39 @@
 
         default_layer {
             bindings = <
-                &kp Q     &kp W    &kp E     &kp R     &kp T     &none    &none     &kp Y     &kp U     &kp I     &kp O     &kp P   
-                &kp A     &kp S    &kp D     &kp F     &kp G     &none    &none     &kp H     &kp J     &kp K     &kp L     &kp SEMI
-                &kp Z     &kp X    &kp C     &kp V     &kp B     &kp BSPC &kp SPACE &kp N     &kp M     &kp COMMA &kp QMARK &kp FSLH
-                &kp ESC   &kp TAB  &kp LCTRL &mo 1     &kp LCMD  &none    &none     &kp RALT  &mo 2     &kp RSHFT &kp SQT   &kp RET
-            >;
-        };
-
-        red_layer {
-            bindings = <
-                &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &none     &none     &kp N6    &kp N7    &kp N8    &kp N9    &kp N0  
-                &kp PLUS  &kp STAR  &kp UP    &kp CARET &kp AMPS  &none     &none     &kp LT    &kp LPAR  &kp LBRC  &kp LBKT  &trans
-                &kp GRAVE &kp LEFT  &kp DOWN  &kp RIGHT &kp HASH  &trans    &trans    &kp EQUAL &kp UNDER &trans    &trans    &trans
-                &trans    &trans    &trans    &trans    &trans    &none     &none     &trans    &trans    &trans    &trans    &trans
+                &kp Q      &kp W      &kp E      &kp R      &kp T      &none      &none      &kp Y      &kp U      &kp I      &kp O       &kp P
+                &kp A      &kp S      &kp D      &kp F      &kp G      &none      &none      &kp H      &kp J      &kp K      &kp L       &kp SEMI
+                &kp Z      &kp X      &kp C      &kp V      &kp B      &kp BSPC   &kp SPACE  &kp N      &kp M      &kp COMMA  &kp QMARK   &kp FSLH
+                &kp ESC    &kp TAB    &kp LCTRL  &mo 2      &kp LCMD   &none      &none      &kp RALT   &mo 1      &kp RSHFT  &kp SQT     &kp RET
             >;
         };
 
         blue_layer {
             bindings = <
-                &kp LS(Q) &kp LS(W) &kp LS(E) &kp LS(R) &kp LS(T) &none     &none     &kp LS(Y) &kp LS(U) &kp LS(I) &kp LS(O) &kp LS(P)
-                &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G) &none     &none     &kp LS(H) &kp LS(J) &kp LS(K) &kp LS(L) &kp SEMI
-                &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(B) &kp BSPC  &kp SPACE &kp LS(N) &kp LS(M) &kp DOT   &kp EXCL  &kp COLON
-                &trans    &trans    &trans    &trans    &trans    &none     &none     &trans    &trans    &trans    &kp DQT   &trans
+                &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)  &none      &none      &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)
+                &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)  &none      &none      &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &kp COLON
+                &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)  &kp BSPC   &kp SPACE  &kp LS(N)  &kp LS(M)  &kp DOT    &kp EXCL   &kp BSLH
+                &trans     &trans     &trans     &mo 3      &trans     &none      &none      &trans     &trans     &trans     &kp DQT    &trans
             >;
         };
+
+        red_layer {
+            bindings = <
+                &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &none      &none      &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
+                &kp MINUS  &kp STAR   &kp UP     &kp CARET  &kp AMPS   &none      &none      &kp LT     &kp LPAR   &kp LBRC   &kp LBKT   &trans
+                &kp GRAVE  &kp LEFT   &kp DOWN   &kp RIGHT  &kp HASH   &trans     &trans     &kp EQUAL  &kp UNDER  &trans     &trans     &trans
+                &trans     &trans     &trans     &trans     &trans     &none      &none      &mo 3      &trans     &trans     &trans     &trans
+            >;
+        };
+
+        purple_layer {
+            bindings = <
+                &trans     &trans     &trans     &trans     &trans     &none      &none      &trans     &trans     &trans     &kp DQT    &trans
+                &kp PLUS   &kp FSLH   &trans     &kp PRCNT  &kp PIPE   &none      &none      &kp GT     &kp RPAR   &kp RBRC   &kp RBKT   &trans
+                &kp TILDE  &trans     &trans     &trans     &kp HASH   &trans     &trans     &trans     &kp AT     &trans     &trans     &trans
+                &trans     &trans     &trans     &trans     &trans     &none      &none      &trans     &trans     &trans     &trans     &trans
+            >;
+        };
+
     };
 };
