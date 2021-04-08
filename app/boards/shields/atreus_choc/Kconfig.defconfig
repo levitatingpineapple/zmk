@@ -1,7 +1,7 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_MY_BOARD
+if SHIELD_SHIELD_ATREUS_CHOC
 
 config ZMK_KEYBOARD_NAME
     default "Atreus"
